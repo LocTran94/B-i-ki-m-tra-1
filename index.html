@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+//Bài 1-1 :
+// let a = +prompt('nhập cạnh a hình vuông')
+// let chuvi = a * 4;
+// let dientich = a * a;
+// document.write('chu vi :' + chuvi +' <br> ' + 'diện tích :' + dientich);
+//Bài 1-2 :
+// let a = +prompt('nhập  a ')
+// let b = +prompt('nhập  b ')
+// let c = a * 4;
+// let d = a * a;
+// document.write('c là :' + c +' <br> ' + 'd là :' + d);
+//Bài 1-3 :
+// let a = +prompt('nhập  a ')
+// let b = +prompt('nhập  b ')
+// let tong = 0;
+// for (let i = a; i <= b; i++){
+//     tong = tong + i
+// }
+// document.write(tong)
+//Bài 1-4 :
+let a = +prompt('nhập năm')
+if (a % 100 == 0){
+    alert('a thuộc thế kỷ :' + a/100)
+}
+else {
+    alert('a thuộc thế kỷ :' + (a/100 + 1))
+}
+//Bài 1-5 :
+ let a = +prompt('nhập  a ')
+ let b = +prompt('nhập  b ')
+ let c = +prompt('nhập  c ')
+if (a + b > c && a + c > b && b + c > a){
+    alert('a, b, c là 3 cạnh của tam giác')
+}
+else {
+    alert('a, b, c không là 3 cạnh của tam giác')
+}
+
+
+
+
+let a = +prompt('nhập  a ')
+let b = +prompt('nhập  b ')
+let c = +prompt('nhập  c ')
+if (a + b > c && a + c > b && b + c > a){
+    if (a == b || a == c || b == c){
+
+
+    alert('a, b, c là 3 cạnh của tam giác ân')
+}
+    else {
+    alert('a, b, c không là 3 cạnh của tam giác cân')
+}
+}
+
+
+
+
+
+let a = +prompt('nhập  a ')
+let b = +prompt('nhập  b ')
+let c = +prompt('nhập  c ')
+if (a == b && a == c && b == c) {
+    alert('a, b, c là 3 cạnh của tam giác đều')
+}
+else {
+    alert('a, b, c không 3 cạnh của tam giác đều')
+}
+
+
+let a = +prompt('nhập  a ')
+let b = +prompt('nhập  b ')
+let c = +prompt('nhập  c ')
+if (a + b > c && a + c > b && b + c > a){
+if (a*a == b*b + c*c && b*b == c*c + a*a && c*c == a*a + b*b) {
+    alert('a, b, c là 3 cạnh của tam giác vuông')
+}
+else {
+    alert('a, b, c không 3 cạnh của tam giác vuông')
+}
+}
+
+
+
+
+</script>
+</html>
